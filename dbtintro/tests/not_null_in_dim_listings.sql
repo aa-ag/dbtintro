@@ -1,0 +1,1 @@
+{{ no_null_rows(ref('dim_listings_cleaned')) }}
