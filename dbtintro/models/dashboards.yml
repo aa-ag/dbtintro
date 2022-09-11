@@ -9,7 +9,7 @@ exposures:
       
 
     depends_on:
-      - ref('dim_listings_w_hosts')
+      - ref('dim_hosts_cleaned')
       - ref('mart_fullmoon_reviews')
 
     owner:
