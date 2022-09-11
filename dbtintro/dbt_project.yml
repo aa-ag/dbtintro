@@ -34,4 +34,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbtintro:
     +materialized: view
-    
+    dim:
+      +materialized: table
